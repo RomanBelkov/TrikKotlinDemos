@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TrikoHunter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TrikoHunter_jar</output-path>
+    <root id="archive" name="TrikoHunter.jar">
+      <element id="module-output" name="TrikoHunter" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/TrikKotlin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-media-support/4.0.3/twitter4j-media-support-4.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.3/twitter4j-core-4.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/kotlin-runtime.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/kotlin-reflect.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
