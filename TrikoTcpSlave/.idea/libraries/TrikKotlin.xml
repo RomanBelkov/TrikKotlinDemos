@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TrikKotlin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/TrikKotlin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

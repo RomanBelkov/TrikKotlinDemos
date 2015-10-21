@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TrikoTcpSlave:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TrikoTcpSlave_jar</output-path>
+    <root id="archive" name="TrikoTcpSlave.jar">
+      <element id="module-output" name="TrikoTcpSlave" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/kotlin-runtime.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/kotlin-reflect.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/TrikKotlin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
