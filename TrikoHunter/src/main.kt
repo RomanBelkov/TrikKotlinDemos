@@ -26,12 +26,11 @@ fun updatePositionY(y: Int) = limitAbs(MAX_ANGLE_Y, y) / SCALE_CONST_Y
 val servoSetting = ServoType(stop = 0, zero = 1400000, min = 625000, max = 2175000, period = 20000000)
 
 val twitterThread = thread(start = false) {
-    //TODO do not commit it
 
-    val consumerKey = "GULBgxl7WsetWGgExpurrRzc4"
-    val consumerSecret = "Vc79kcWEd4pkVUka3e4tolMeJAvw2a7LSAwy6TCV2kG5yzE6Wn"
-    val accessToken = "3974223010-vINc48N7DoIZmGk17WUpQxshE0rSGItmymWS3ek"
-    val accessTokenSecret = "26ImPowiWzeCB1WmeOhFcPclgonco9y1MO2DD3wQ8Kiv6"
+    val consumerKey = "XXX"
+    val consumerSecret = "XXX"
+    val accessToken = "XXX-XXX"
+    val accessTokenSecret = "XXX"
 
     val token = AccessToken(accessToken, accessTokenSecret)
     val config = ConfigurationBuilder()
